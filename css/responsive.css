@@ -1,0 +1,5 @@
+@media (max-width: 1440px) {
+  .header__logo_link {
+    width: calc(160px + (260 - 160) * (100vw - 320px) / 1600);
+  }
+}

@@ -1,0 +1,45 @@
+.bread_crumbs { 
+  width: 100%;
+  background: #ffffff; 
+  height: 180px;    
+}
+.bread_crumbs_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 88.5%;  
+  min-height: 360px;
+  background: #FAFAFA;
+  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+  position: relative;
+  z-index: 3;
+}
+.bread_crumbs_block {
+  max-width: 822px;
+}
+.bread_crumbs_title {
+  max-width: 822px;
+  font-family: "Poppins";  
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 123%;  
+  color: #4D533C;
+  margin-bottom: 50px;
+}
+.bread_crumbs_link {
+  display: inline-block;
+  font-family: "Roboto";  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;  
+  color: #D4D6D4;
+  transition: .5s linear;
+  margin-left: 20px;
+
+  &:hover {
+    transform: scale(1.1);
+    color: #FFD723;
+  }
+}
