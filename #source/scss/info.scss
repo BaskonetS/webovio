@@ -4,15 +4,14 @@
 }
 .info__block {
   display: flex;
+  align-items: center;
   width: 100%;
-  margin-bottom: 130px;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
+  height: 88vh;
+  min-height: 670px;  
 }
 .info__img-review {
-  width: 735px; 
+  width: 735px;
+  max-height: 540px;
   position: relative;
 
   & .info__img {
@@ -78,6 +77,7 @@
 }
 .info__post_wrap {
   max-width: 475px;
+  min-height: 85%;
 }
 .info__post_title {
   max-width: 475px;

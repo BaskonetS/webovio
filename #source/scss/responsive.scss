@@ -1,10 +1,7 @@
 @media (max-width: 1439px) {
   .header__logo_link {
     width: calc(160px + (260 - 160) * (100vw - 320px) / 1120);
-  }
-  .intro {
-    min-height: calc(700px + (830 - 700) * (100vw - 320px) / 1120);    
-  }
+  }  
   .intro__title {    
     font-size: calc(46px + (60 - 46) * (100vw - 320px) / 1120);    
     margin-bottom: 25px;
@@ -50,11 +47,11 @@
     font-size: calc(14px + (16 - 14) * (100vw - 320px) / 1120);
   }
   .services {
-    padding-top: calc(50px + (150 - 50) * (100vw - 320px) / 1120);
-    padding-bottom: calc(70px + (150 - 70) * (100vw - 320px) / 1120);
+    padding-top: calc(50px + (100 - 50) * (100vw - 320px) / 1120);
+    padding-bottom: calc(70px + (100 - 70) * (100vw - 320px) / 1120);
 
     & .services__title_wrap {
-      padding-top: calc(20px + (150 - 20) * (100vw - 320px) / 1120);
+      padding-top: calc(20px + (100 - 20) * (100vw - 320px) / 1120);
     }
     & .services__title {
       font-size: calc(26px + (36 - 26) * (100vw - 320px) / 1120);
@@ -119,10 +116,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    &:nth-child(1) {
-      margin-bottom: 0;
-    }
+    height: auto;    
+  }
+  ._info__block_bottom {
+    margin-bottom: calc(60px + (100 - 60) * (100vw - 320px) / 703);
   }
   .info__img-review {
     width: calc(300px + (735 - 300) * (100vw - 320px) / 703);    
@@ -136,6 +133,9 @@
     padding-right: calc(10px + (50 - 10) * (100vw - 320px) / 703);
     padding-bottom: calc(30px + (50 - 30) * (100vw - 320px) / 703);
     padding-left: calc(10px + (50 - 10) * (100vw - 320px) / 703);
+  }
+  .services {
+    height: auto;
   }
   .services__block {
     flex: 0 0 50%;
@@ -159,6 +159,7 @@
 
 @media (max-width: 914px) {
   .strategy {
+    height: auto;
     padding-top: 175px;    
   }
   .strategy__wrap {
@@ -197,10 +198,7 @@
   }
   .info__review_text {
     font-size: calc(14px + (16 - 14) * (100vw - 320px) / 249);
-  }
-  .info__block:nth-child(2) {
-    margin-bottom: 60px;
-  }
+  }  
   .services__title {
     text-align: center;
   }
